@@ -1,0 +1,96 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  background-image: url('./MaterialeEsercizioLim/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
+}
+
+.panel{
+  color: white;
+  position: absolute;
+  top: 15px;
+  height: 555px;
+  left: 230px;
+  right: 180px;
+  border-radius: 10px;
+
+  background-color: black;
+  opacity: 0.5;
+}
+
+.container{
+  top: 75px;
+  left: 290px;
+  right: 240px;
+  height: 500px;
+  position: absolute;
+}
+
+.title{
+  padding-bottom: 3px;
+  text-align: center;
+  overflow: auto;
+}
+
+.logo-title{
+  width: 175px;
+  height: 80px;
+}
+
+.text-title{
+  letter-spacing: 1px;
+  font-size: 28px;
+  font-weight: 500;
+  color: #0fe00f;
+}
+
+.flexbox{
+  background-color: #0fe00f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+
+.flex-input{
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.grid{
+  margin-top: -5px;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.grid-item{
+  color: rgba(255, 255, 255, 0.991);
+  margin-top: 20px;
+}
+
+.driver-username{
+  margin-left: 2px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.address,
+.battery{
+  margin-top: 3px;
+}
+
+.address,
+.battery-text{
+  color: rgba(255, 255, 255, 0.735);
+  font-size: 13px;
+  font-weight: 100;
+}
+
+.battery-bar{
+  margin-top: 1px;
+  height: 20px;
+  border-radius: 4px;
+}
